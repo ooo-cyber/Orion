@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    #gameContainer {
+    position: relative;
+    }
+    
+    canvas {
+    display: block;
+    background-color: #f0f0f0; /* 游戏背景颜色 */
+    border: 2px solid #000;
+    }
+    
+    #score {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    }
+    
+    #gameOverMessage {
+    display: none;
+    font-size: 24px;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+    未选择文件
+    
